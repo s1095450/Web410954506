@@ -23,6 +23,9 @@ namespace Web410954506.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.apple = "100";
+            ViewData["google"] = "200";
+
             return View();
         }
     }
